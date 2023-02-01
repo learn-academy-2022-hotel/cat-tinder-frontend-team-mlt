@@ -3,7 +3,7 @@ import React from "react"
 const Footer = () => {
   return(
     <>
-     <h1> Footer</h1>
+     <p> &copy; This is the Footer by Team MLT</p>
     </>
   )
 }
