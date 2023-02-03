@@ -15,8 +15,4 @@ describe("<CatNew />", () => {
       expect(element).toBeInTheDocument()
     }
   )
-    // it("can see the form on the page", () => {
-    //   const element = screen.getByPlaceholderText("Please enter your name")
-    //   expect(element).toBeInTheDocument()
-    //   })
-    })
+})
