@@ -22,7 +22,9 @@ const CatIndex = ({cats}) => {
             Age: {cat.age}
           </CardSubtitle>
 
-          <Button>
+          <Button color="danger" 
+          outline>
+
           <NavLink to={`/catshow/${cat.id}`} className="nav-link">
           Check Meow-t
           </NavLink>

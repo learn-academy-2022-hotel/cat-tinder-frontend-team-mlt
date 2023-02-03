@@ -3,7 +3,7 @@ import React from "react"
 const Footer = () => {
   return(
     <>
-     <p> &copy; This is the Footer by Team MLT</p>
+     <p> &copy; Team MLT | 2023</p>
     </>
   )
 }
