@@ -26,7 +26,7 @@ const CatIndex = ({cats}) => {
           outline>
 
           <NavLink to={`/catshow/${cat.id}`} className="nav-link">
-          Check Meow-t
+            Check Meow-t
           </NavLink>
           </Button>
 
