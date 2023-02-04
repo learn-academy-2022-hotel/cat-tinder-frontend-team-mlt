@@ -1,10 +1,10 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, NavLink } from 'react-router-dom'
 
 const CatShow = ({ cats }) => {
 
   const { id } = useParams()
-  let selectedCat = cats.find(cat => cat.id === +id)
+  let selectedCat = cats?.find(cat => cat.id === +id)
 
   return(
       <main className="cat-show-cards">
@@ -20,6 +20,9 @@ const CatShow = ({ cats }) => {
             <h3>{selectedCat.enjoys}</h3>
           </>
         )}
+        <NavLink to={`/catedit/${selectedCat.id}`} className="nav-link">
+          Edit Cat Profile
+        </NavLink>
       </main>
     )
 }
